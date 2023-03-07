@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tinfis-Marketplace</title>
+     <link rel="icon" href="https://tinfis.uz/img/logox.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+    
+     <header>
+        <div class=" d-flex justify-content-between ">
+             <div class=" d-flex ms-5 align-items-center">
+                <div>
+                    <img width="20" src="https://tinfis.uz/img/location.svg" alt="">
+                    <span class="text-white ">Ташкент,
+                        Ташкентская область</span>
+                 </div>
+                 <div class="ms-5">
+                    <img width="20" src="https://tinfis.uz/img/24,7.svg" alt="">
+                    <span class="text-white fs-5">+998 71 209 03 33</span>
+                 </div>
+             </div>
+             <div class=" d-flex me-5 align-items-center">
+                <div class="me-5">
+                    <a href="" class="text-white fs-6 text-decoration-none">Кабинет продавца</a>
+                </div>
+                <div class="me-5">
+                    <a href="" class="text-decoration-none">
+                        <img width="20" src="https://tinfis.uz/img/icons/help.svg" alt="">
+                        <span class="text-white fs-6">Помощь</span></a>
+                </div>
+                <div class="me-5">
+                    <a href="" class="text-decoration-none">
+                        <img width="20" src="https://tinfis.uz/ru.svg" alt="">
+                        <span class="text-white fs-6">RU</span></a>
+                </div>
+             </div>
+        </div>
+        <nav>
+              <div class="d-flex justify-content-between align-items-center">
+                   <div class="ms-5">
+                       <img width="150" src="https://tinfis.uz/img/Logo.svg" alt="">
+                   </div>
+                   <div class="border w-50 rounded-pill d-flex align-items-center">
+                         <input class="ms-3" type="text" placeholder="Search...">
+                         <button class="ms-2"><img src="https://tinfis.uz/img/sm-search.svg" alt=""></button>
+                   </div>
+                   <div class="d-flex me-5">
+                       <a href="" class="me-3"> <img width="30" src="https://tinfis.uz/img/Favorites.png" alt=""></a>
+                       <a href="" class="me-3"> <img width="30" src="https://tinfis.uz/img/cart.svg" alt=""></a>
+                       
+                       <!-- Button trigger modal -->
+                 <button type="button" class="btn me-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img width="30" src="https://tinfis.uz/img/profile.svg" alt="">
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Войдите или зарегистрируйтесь, чтобы продолжить</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label"></label>
+                                  <input type="email" onfocus="yoz()" class="form-control" id="inp" aria-describedby="emailHelp">
+                                  
+                                </div>
+                                
+                              </form>
+                        </div>
+                        <div class="modal-footer">
+                        
+                         <div class="d-flex justify-content-center w-100">
+                            <button type="button" onclick="yoz1()" id="btn" class="btn btn-warning disabled" data-bs-toggle="modal" data-bs-target="#exampleModal1" >yuborish</button>
+                         </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Войдите или зарегистрируйтесь, чтобы продолжить</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="d-flex"> 
+                              <input class="form-control w-25" id="inp1" type="text">
+                              <input class="form-control w-25" id="inp2" type="text">  
+                              <input class="form-control w-25" id="inp3" type="text">
+                              <input class="form-control w-25" id="inp4" type="text">
+                            </form>
+                            <h1 id="h1"></h1>
+                        </div>
+                        <div class="modal-footer">
+                        
+                        <div class="d-flex justify-content-center w-100">
+                            <button type="button" onclick="yoz2()" id="btn" class="btn btn-warning">Tasdiqlash</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                   </div>
+              </div>
+              <div>
+
+              </div>
+        </nav>
+        <div>
+
+        </div>
+     </header>
+
+     <main>
+        <div class="row w-100 bg-danger --bs-gutter-x: 0rem;" style="height: 70%;">
+            <div class="col-xl-2  bg-primary"style="height: 70%;"></div>
+            <div class="col-xl-4  bg-danger"style="height: 70%;"></div>
+            <div class="col-xl-6  bg-primary"style="height: 70%;"></div>
+        </div>
+     </main>
+
+     <footer>
+
+     </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

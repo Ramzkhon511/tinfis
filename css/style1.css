@@ -1,0 +1,156 @@
+body{
+    font-family: Lato,sans-serif;
+}
+
+header{
+    width: 100%;
+}
+header>div:first-child{
+    width: 100%;
+    height: 6vh;
+    background-color: #414141;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+}
+nav>div:first-child{
+    height: 8vh;
+}
+nav>div:first-child>div:nth-child(2)>input{
+    width: 90%;
+    height: 5vh;
+    border: none;
+    outline: none;
+}
+nav>div:first-child>div:nth-child(2)>button{
+    background-color: white;
+
+    border: none;
+}
+nav>div:first-child>div:nth-child(2){
+    height: 6vh;
+}
+main{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 243, 243);
+}
+.contacticon{
+    width: 150px;
+    height: 150px;
+    color: #acacac;
+    background-color: #acacac;
+    border-radius: 50%;
+}
+
+#inp7{
+    width: 80%;
+    border: none;
+    outline: none;
+}
+#inp8{
+    width: 80%;
+    border: none;
+    outline: none;
+}
+#inp9{
+    width: 80%;
+    border: none;
+    outline: none;
+}
+#inp10{
+    width: 80%;
+    border: none;
+    outline: none;
+}
+#inp11{
+    width: 80%;
+    border: none;
+    outline: none;
+}
+#btn7{
+    width: 15%;
+    border: none;
+}
+#btnm{
+    width:40%;
+    height: 40px;
+    background: none;
+    border:#414141 1px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#btnf{
+    width:40%;
+    height: 40px;
+    border:#414141 1px solid;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.Imya{
+    color: #414141;
+}
+#divimya{
+    width: 100%;
+    height: 5vh;
+}
+#divfamil{
+    width: 100%;
+    height: 5vh;
+}
+#divphone{
+    width: 100%;
+    height: 5vh;
+}
+#divemail{
+    width: 100%;
+    height: 5vh;
+}
+#divemail2{
+    width: 100%;
+    height: 5vh;
+}
+.leftcontaner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f3f5;
+}
+.contleft{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 5px;
+    height: 40px;
+    background-color: #f2f3f5;
+    border-radius: 10px;
+}
+.contleft img{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contactimg{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.contactimg img{
+    box-shadow: #b4b4b4 0px 1px 10px 1px;
+}
+.contleft:hover{
+    
+    background-color:#fdfdfd ;
+}
+.contleft a{
+    text-decoration: none;
+    color: #414141;
+    font-size: 16px;
+    
+}
+.rightcontener{
+    background-color: #f2f3f5;
+}
+
